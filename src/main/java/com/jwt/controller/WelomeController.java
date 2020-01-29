@@ -23,7 +23,7 @@ public class WelomeController {
 
 	@GetMapping("/users")
 	public List<User> getUsers() {
-		
+		System.out.println();
 		return userRepository.findAll();
 		
 	}
